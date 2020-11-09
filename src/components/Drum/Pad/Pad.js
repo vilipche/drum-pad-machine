@@ -49,9 +49,8 @@ class Pad extends React.Component {
         return (
             <div
                 id={this.props.keyStroke}
-                className={
-                    this.state.active ? classes.ActivePad : classes.InactivePad
-                }
+                className={`${classes.Pad} 
+                ${this.state.active ? classes.ActivePad : classes.InactivePad}`}
             >
                 {this.props.keyStroke}
             </div>

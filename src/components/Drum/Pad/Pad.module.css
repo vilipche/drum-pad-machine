@@ -1,14 +1,14 @@
 .InactivePad {
-    border: 3px solid black;
+    border: 3px solid #2d3142;
     border-radius: 3px;
     color: white;
-    background-color: grey;
+    background-color: #4f5d75;
 }
 
 .ActivePad {
-    border: 3px solid darkcyan;
+    border: 3px solid #4f5d75;
     border-radius: 3px;
-    background-color: cyan;
+    background-color: #ef8354;
 }
 
 .Pad {

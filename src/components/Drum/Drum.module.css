@@ -5,3 +5,12 @@
     column-gap: 5px;
     row-gap: 5px;
 }
+
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #bfc0c0;
+}

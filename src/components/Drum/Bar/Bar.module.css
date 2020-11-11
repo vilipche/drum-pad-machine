@@ -1,0 +1,17 @@
+.Slider {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    margin-top: 5px;
+    padding: 1em;
+
+    font-family: Geneva, sans-serif;
+    flex-wrap: nowrap;
+
+    border: 3px solid #2d3142;
+    border-radius: 3px;
+    color: white;
+    background-color: #ef8354;
+
+    font-weight: bold;
+}

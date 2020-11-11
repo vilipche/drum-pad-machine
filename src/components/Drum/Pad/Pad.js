@@ -3,7 +3,7 @@ import React from "react";
 import classes from "./Pad.module.css";
 
 class Pad extends React.Component {
-    state = { active: false, audio: new Audio(this.props.audio) };
+    state = { active: false, audio: this.props.audio };
 
     // Once the component is mounted, add the listeners
     componentDidMount() {
